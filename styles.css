@@ -1,0 +1,40 @@
+#main-container{
+    width:800px;
+    height: 290px;
+    box-sizing: border-box;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #00471b;
+    margin: auto;
+    position: absolute;
+    top: 20%;  
+}
+
+@media (min-width:880px){
+    #main-container{
+        left:25rem;
+    }
+}
+
+img{
+    width:200px;    
+}
+
+#keyboard{
+    height: 190px;
+    background-color: white;
+    border:2px solid black;
+    width: 100%;
+    position: relative;
+    top: 14%;
+}
+
+.key-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 90%;
+    width: 2%;
+    background-color: yellow;
+}
